@@ -34,8 +34,7 @@ class intArray {
 int main(int argc, char* argv[]) {
 
 	intArray a(12);
-	a.set(5, 4);
-	printf("%d\n", a.get(5));
-	
+	//Call get and set to use it as an array
+
 	return 0;
 }
