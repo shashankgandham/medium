@@ -17,7 +17,7 @@ class intArray {
 
 		int get(int pos) {
 			if(pos >= this->len || pos < 0)
-				return INT_MAX;
+				return INT_MIN;
 			else
 				return a[pos];		
 		}
